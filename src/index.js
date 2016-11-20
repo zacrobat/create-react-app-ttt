@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Game from './Game';
+// import Game from './components/Game';
+import Board from './components/Board';
+import GameParts from './components/GameParts';
+// import Square from './components/Square';
 import './index.css';
 
+
 ReactDOM.render(
-  <Game />,
+  <GameParts />,
   document.getElementById('root')
 );
